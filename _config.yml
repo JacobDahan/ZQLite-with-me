@@ -1,0 +1,3 @@
+theme: jekyll-theme-minimal
+title: ZQLite With Me
+description: Writing a SQLite clone from scratch in Zig

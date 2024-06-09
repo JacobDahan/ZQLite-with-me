@@ -1,3 +1,16 @@
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/leap-day@v0.2.0
 title: ZQLite With Me
 description: Writing a SQLite clone from scratch in Zig
+
+collections:
+  parts:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: parts
+    values:
+      layout: default
+
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
